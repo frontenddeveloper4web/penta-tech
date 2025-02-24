@@ -182,9 +182,10 @@ h1, h2, h3, h4 {
 .hero-first-container {
   display: flex;
   flex-direction: column;
-  height: 404px;
-  max-width: 100%;
-  width: 1280px;
+  /* height: 404px; */
+  height: auto;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
@@ -195,18 +196,20 @@ h1, h2, h3, h4 {
 .hero-second-container {
   display: flex;
   flex-direction: column;
-  height: 404px;
-  max-width: 100%;
-  width: 1216px;
+  /* height: 404px; */
+  height: auto;
+  width: 100%;
+  max-width: 1216px;
   align-items: center;
   /* justify-content: center; */
 }
 .hero-heading {
   display: flex;
   flex-direction: column;
-  height: 296px;
-  max-width: 100%;
-  width: 1024px;
+  /* height: 296px; */
+  height: auto;
+  width: 100%;
+  max-width: 1024px;
   align-items: center;
   /* justify-content: center; */
   /* padding-left: 96px; */
@@ -215,8 +218,8 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   height: 212px;
-  max-width: 100%;
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
   align-items: center;
   /* left: 96px; */
   /* justify-content: center; */
@@ -227,7 +230,8 @@ h1, h2, h3, h4 {
   text-align: center;
   justify-content: center;
   height: 28px;
-  width: 122px;
+  /* height: auto; */
+  max-width: 122px;
   border-radius: 16px;
   border: 1px solid #79A9E4;
   padding-left: 12px;
@@ -250,8 +254,8 @@ h1, h2, h3, h4 {
 .heading {
   display: flex;
   height: 144px;
-  width: 1024px;
-  max-width: 100%;
+  max-width: 1024px;
+  width: 100%;
   /* padding-top: 44px; */
   align-items: center;
   /* justify-content: center; */
@@ -374,7 +378,10 @@ h1, h2, h3, h4 {
   display: flex;
   /* flex-direction: column; */
   width: 1216px;
+  /* width: 100%; */
   height: 377px;
+  /* height: auto; */
+  /* gap: 15px; */
   /* opacity: 10%; */
   align-items: center;
 }
@@ -607,8 +614,8 @@ h1, h2, h3, h4 {
   width: 100%;
   /* height: 160px; */
   height: auto;
-  padding-right: 32px;
-  padding-left: 32px;
+  /* padding-right: 32px; */
+  /* padding-left: 32px; */
   gap: 32px;
 }
 .what-we-do {
@@ -721,8 +728,8 @@ h1, h2, h3, h4 {
   width: 100%;
   /* height: 496px; */
   height: auto;
-  padding-right: 32px;
-  padding-left: 32px;
+  /* padding-right: 32px; */
+  /* padding-left: 32px; */
   gap: 96px;
 }
 .what-we-do-first-container-reverse {
@@ -734,8 +741,8 @@ h1, h2, h3, h4 {
   width: 100%;
   /* height: 496px; */
   height: auto;
-  padding-right: 32px;
-  padding-left: 32px;
+  /* padding-right: 32px; */
+  /* padding-left: 32px; */
   gap: 96px;
 }
 .what-we-do-first {
@@ -2123,8 +2130,8 @@ h1, h2, h3, h4 {
   .what-we-do-first-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 0 16px;
+    /* gap: 20px; */
+    /* padding: 0 16px; */
   }
   .what-we-do-first {
     display: flex;
@@ -2139,6 +2146,20 @@ h1, h2, h3, h4 {
   }
   .why-choose-us-main-text h3 {
     font-size: 18px;
+  }
+}
+@media (min-width: 900px) {
+  .badge {
+    margin-bottom: 14px;
+  }
+  .we-offer {
+    margin-top: 18px;
+  }
+  .contact-us-button {
+    padding-top: 33px;
+  }
+  .trustees-album {
+    gap: 15px;
   }
 }
 @media (max-width: 790px) {
@@ -2296,7 +2317,7 @@ h1, h2, h3, h4 {
   }
   .what-we-do-header-and-text {
     gap: 10px;
-    padding: 0 16px;
+    /* padding: 0 16px; */
   }
   /* .what-we-do-main-text h2 {
     font-size: 20px;
